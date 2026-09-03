@@ -30,7 +30,10 @@ function check_answer() {
 
   if (userAnswer === correctAnswer) {
     score_value.innerHTML = "<span style='color: green;'> Prawda! </span>";
-    generate_random_sqrt();
+    setTimeout(() => {
+      score_value.innerHTML = "";
+      generate_random_sqrt();
+    }, 1000);
   } else {
     score_value.innerHTML = "<span style='color: red'> Źle </span>";
   }
