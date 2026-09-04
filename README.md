@@ -1,1 +1,1 @@
-# kozio28.github.io/sqrtguessr
+# https://kozio28.github.io/sqrtguessr
