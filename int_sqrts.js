@@ -1,6 +1,6 @@
 const randomQuestion_value = document.getElementById("randomQuestion");
 const answer_input = document.getElementById("answer_input");
-const submit_btn = document.getElementById("sumbitAnswer");
+const submit_btn = document.getElementById("submitAnswer");
 const score_value = document.getElementById("score");
 
 const sqrts_4digit_ints = [];
