@@ -1,6 +1,6 @@
 const randomQuestion_value = document.getElementById("randomQuestion");
 const answer_input = document.getElementById("answer_input");
-const submit_btn = document.getElementById("sumbitAnswer");
+const submit_btn = document.getElementById("submitAnswer");
 const score_value = document.getElementById("score");
 
 let randomNumber = 0;
@@ -25,13 +25,13 @@ function check_answer() {
   }
 
   if (userAnswer === correctAnswer) {
-    score_value.innerHTML = "<span style='color: green;'> Prawda! </span>";
+    score_value.innerHTML = "<span style='color: green;'> OK! </span>";
     setTimeout(() => {
       score_value.innerHTML = "";
       generate_random_question();
     }, 1000);
   } else {
-    score_value.innerHTML = "<span style='color: red'> Źle </span>";
+    score_value.innerHTML = "<span style='color: red'> Wrong! </span>";
   }
 }
 
